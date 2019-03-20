@@ -1,109 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name><![CDATA[Monday 03:41:45 AM]]></name>
-    <visibility>1</visibility>
-    <open>1</open>
-    <Snippet><![CDATA[created using <a href="http://www.gpsvisualizer.com/?ref=ge&time=20190318034145">GPS Visualizer</a>]]></Snippet>
-    <Style id="gv_waypoint_normal">
-      <IconStyle>
-        <color>ffffffff</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
-        </Icon>
-        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
-      </IconStyle>
-      <LabelStyle>
-        <color>ffffffff</color>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="gv_waypoint_highlight">
-      <IconStyle>
-        <color>ffffffff</color>
-        <scale>1.2</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
-        </Icon>
-        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
-      </IconStyle>
-      <LabelStyle>
-        <color>ffffffff</color>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="gv_track">
-      <LineStyle>
-        <color>ff0000e6</color>
-        <width>4</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<div style="font-family:Arial,sans-serif; min-width:200px;"><h3>$[name]</h3> <div style="margin-top:8px;">$[description]</div></div>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="gv_waypoint">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#gv_waypoint_normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#gv_waypoint_highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder id="Waypoints">
-      <name>Waypoints</name>
-      <visibility>1</visibility>
-      <Placemark>
-        <name>新宿駅、〒160-0022 東京都新宿区新宿３丁目</name>
-        <Snippet></Snippet>
-        <description><![CDATA[&nbsp;]]></description>
-        <styleUrl>#gv_waypoint</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>139.7003912,35.6897376</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>新大久保駅、〒169-0073 東京都新宿区百人町１丁目</name>
-        <Snippet></Snippet>
-        <description><![CDATA[&nbsp;]]></description>
-        <styleUrl>#gv_waypoint</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>139.7002258,35.7012459</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder id="Tracks">
-      <name>Tracks</name>
-      <visibility>1</visibility>
-      <open>0</open>
-      <Placemark>
-        <name><![CDATA[新宿駅、〒160-0022 東京都新宿区新宿３丁目 - 新大久保駅、〒169-0073 東京都新宿区百人町１丁目]]></name>
-        <description><![CDATA[1.6 km, 0:19]]></description>
-        <styleUrl>#gv_track</styleUrl>
-        <Style>
-          <LineStyle>
-            <color>ff0000e6</color>
-            <width>4</width>
-          </LineStyle>
-        </Style>
-        <MultiGeometry>
-          <LineString>
-            <tessellate>1</tessellate>
-            <altitudeMode>clampToGround</altitudeMode>
-            <coordinates>139.70042,35.68974 139.70033,35.6907 139.70027,35.69096 139.70025,35.69109 139.70025,35.6912 139.70089,35.69149 139.70105,35.69151 139.70105,35.69154 139.70101,35.69182 139.70108,35.69182 139.70107,35.69189 139.70107,35.69193 139.70106,35.69201 139.70105,35.69207 139.70094,35.69206 139.7009,35.69215 139.7009,35.69236 139.70077,35.69258 139.70072,35.69262 139.70067,35.69266 139.70064,35.69271 139.70057,35.69293 139.70056,35.69298 139.7005,35.69319 139.70049,35.69325 139.70048,35.69332 139.7005,35.69338 139.70051,35.6934 139.70053,35.69343 139.70062,35.69349 139.7007,35.69352 139.70076,35.69351 139.70082,35.6935 139.70089,35.6935 139.7009,35.69354 139.70097,35.69383 139.70086,35.69385 139.70071,35.69388 139.70067,35.69393 139.70064,35.69399 139.70056,35.69417 139.70048,35.6945 139.70046,35.6946 139.70044,35.6947 139.70041,35.69479 139.7004,35.69485 139.70037,35.69496 139.70034,35.69509 139.70032,35.69518 139.70026,35.69554 139.70027,35.6956 139.70027,35.69578 139.70031,35.69614 139.70032,35.69622 139.70036,35.69624 139.70037,35.69633 139.70033,35.69634 139.7004,35.69726 139.70041,35.69731 139.70046,35.69786 139.7005,35.69793 139.70058,35.69796 139.70079,35.69796 139.70083,35.69796 139.70085,35.6982 139.70072,35.6982 139.70076,35.69855 139.7008,35.69883 139.70093,35.69962 139.70075,35.69963 139.70051,35.69965 139.70052,35.69969 139.70054,35.7 139.7005,35.70014 139.7005,35.70028 139.70054,35.70053 139.70062,35.70081 139.70057,35.70082 139.70063,35.70104 139.70067,35.70113 139.7007,35.70138 139.70065,35.70138 139.70017,35.70141 139.70011,35.70142 139.70014,35.70136 </coordinates>
-          </LineString>
-        </MultiGeometry>
-      </Placemark>
-    </Folder>
-  </Document>
-</kml>
+<Placemark>
+<description>東日本旅客鉄道</description>
+<name>山手線</name>
+<ExtendedData>
+<Data name="data_type">
+<value>rail</value>
+</Data>
+<Data name="company_name">
+<value>東日本旅客鉄道</value>
+</Data>
+<Data name="line_name">
+<value>山手線</value>
+</Data>
+<Data name="station_name">
+<value>恵比寿</value>
+</Data>
+<Data name="railway_type">
+<value>11</value>
+</Data>
+<Data name="service_provider_type">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>
+139.71054000,35.64593000,0.0
+139.70971000,35.64743000,0.0
+139.70971000,35.64743000,0.0
+139.70956000,35.64770000,0.0
+139.70937000,35.64804000,0.0
+139.70870000,35.64923000,0.0
+139.70856000,35.64947000,0.0
+139.70791000,35.65065000,0.0
+139.70776000,35.65092000,0.0
+139.70773000,35.65097000,0.0
+139.70742000,35.65134000,0.0
+139.70691000,35.65193000,0.0
+139.70658000,35.65224000,0.0
+139.70643000,35.65241000,0.0
+139.70597000,35.65298000,0.0
+139.70555000,35.65346000,0.0
+139.70548000,35.65355000,0.0
+139.70543000,35.65360000,0.0
+139.70538000,35.65366000,0.0
+139.70427000,35.65490000,0.0
+139.70334000,35.65595000,0.0
+139.70221000,35.65723000,0.0
+139.70221000,35.65723000,0.0
+139.70201000,35.65746000,0.0
+139.70174000,35.65785000,0.0
+139.70137000,35.65880000,0.0
+139.70129000,35.65907000,0.0
+139.70129000,35.65907000,0.0
+139.70124000,35.65930000,0.0
+139.70122000,35.65937000,0.0
+139.70118000,35.65956000,0.0
+139.70117000,35.65965000,0.0
+139.70118000,35.65978000,0.0
+139.70123000,35.66023000,0.0
+139.70143000,35.66181000,0.0
+139.70147000,35.66213000,0.0
+139.70160000,35.66319000,0.0
+139.70164000,35.66349000,0.0
+139.70201000,35.66650000,0.0
+139.70205000,35.66678000,0.0
+139.70232000,35.66891000,0.0
+139.70235000,35.66914000,0.0
+139.70237000,35.66934000,0.0
+139.70239000,35.66954000,0.0
+139.70239000,35.66961000,0.0
+139.70240000,35.66976000,0.0
+139.70243000,35.66990000,0.0
+139.70251000,35.67042000,0.0
+139.70251000,35.67042000,0.0
+139.70264000,35.67110000,0.0
+139.70275000,35.67156000,0.0
+139.70295000,35.67220000,0.0
+139.70295000,35.67220000,0.0
+139.70345000,35.67338000,0.0
+139.70399000,35.67489000,0.0
+139.70412000,35.67552000,0.0
+139.70412000,35.67583000,0.0
+139.70413000,35.67667000,0.0
+139.70398000,35.67771000,0.0
+139.70384000,35.67842000,0.0
+</coordinates>
+</LineString>
+</Placemark>
