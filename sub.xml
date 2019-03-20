@@ -1,0 +1,37 @@
+<Placemark>
+<description>東日本旅客鉄道</description>
+<name>山手線</name>
+<ExtendedData>
+<Data name="data_type">
+<value>rail</value>
+</Data>
+<Data name="company_name">
+<value>東日本旅客鉄道</value>
+</Data>
+<Data name="line_name">
+<value>山手線</value>
+</Data>
+<Data name="station_name">
+<value>恵比寿</value>
+</Data>
+<Data name="railway_type">
+<value>11</value>
+</Data>
+<Data name="service_provider_type">
+<value>2</value>
+</Data>
+</ExtendedData>
+<LineString>
+<coordinates>
+139.70295000,35.67220000,0.0
+139.70295000,35.67220000,0.0
+139.70345000,35.67338000,0.0
+139.70399000,35.67489000,0.0
+139.70412000,35.67552000,0.0
+139.70412000,35.67583000,0.0
+139.70413000,35.67667000,0.0
+139.70398000,35.67771000,0.0
+139.70384000,35.67842000,0.0
+</coordinates>
+</LineString>
+</Placemark>
